@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/enten/gitbook-boilerplate.git",
+    "url": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-berkan-javier-35l2",
     "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
   },
   "keywords": [
@@ -35,8 +35,12 @@
     "gh-pages": "^0.3.1",
     "gitbook": "^2.1.0",
     "gitbook-cli": "^0.3.4",
+    "gulp-connect": "^5.0.0",
+    "shelljs": "^0.7.6"
+  },
+  "dependencies": {
+    "gitbook": "^2.6.7",
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-shell": "^0.5.2"
+    "shelljs": "^0.7.6"
   }
 }
