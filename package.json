@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-berkan-javier-35l2",
-    "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
+    "url": "git@github.com:ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-berkan-javier-35l2.git",
+    "wiki": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-berkan-javier-35l2.wiki.git"
   },
   "keywords": [
     "gitbook",
