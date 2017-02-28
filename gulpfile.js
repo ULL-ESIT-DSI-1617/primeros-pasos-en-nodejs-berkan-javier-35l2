@@ -1,13 +1,19 @@
 var gulp = require('gulp');
-var shell = require('gulp-shell');
+var shell = require('shelljs');
 var ghPages = require('gulp-gh-pages');
 
 gulp.task('build',function(){
-    return gulp.src('')
-        .pipe(shell(['./scripts/generate-gitbook']));
+    require('./scripts/generate-gitbook.js');
+    require('./scripts/generate-wiki.js');
 });
 
 gulp.task('deploy',function(){
-    return gulp.src('./txt/_book/**/*')
+    return gulp.src('./gh-pages/**/*')
         .pipe(ghPages());
 });
+
+gulp.task('serve', function(){
+    shell.exec("gitbook serve txt");
+});
+
+gulp.task('default',[]);
