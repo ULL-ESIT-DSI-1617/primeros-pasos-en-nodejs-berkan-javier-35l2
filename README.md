@@ -3,17 +3,17 @@
 
 ## Instrucciones
 
-1. Instalar dependencias.
+* Instalar dependencias.
 
 ```bash
 npm install 
 ```
-2. Crear gitbook y wiki 
+* Crear gitbook y wiki 
 
 ```bash 
 gulp build
 ```
-3. Desplegar gitbook y wiki 
+* Desplegar gitbook y wiki 
 
 ```bash
 gulp deploy
